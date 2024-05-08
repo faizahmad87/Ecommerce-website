@@ -1,10 +1,7 @@
-// sk_test_51LnUKJDM1jwCEz8OJG69szv032rIo4X0WrFMaXrqxu9g8fdohsL1y54JEUhFUKrqoBquVjN3AzpIFyrbN915bgcd00O5hqoGCJ
-// Coffee: price_1LnUTFDM1jwCEz8OGoOSXiSM
-// Sunglasses: price_1LnUTxDM1jwCEz8OAqHYTwKQ
-// Camera: price_1LnUUoDM1jwCEz8OvxIcJ7to
+
 const express = require('express');
 var cors = require('cors');
-const stripe = require('stripe')('sk_test_51PE6bjSCIAiUNiAO37rAlVIM5wznuOVPylMPQ63AgjVZ3M0wPODS0Y5v338CfUMTlObaOpp3c9DRGlTolWsp7ZQC00hNjdRyiv');
+const stripe = require('stripe')('/');
 
 const app = express();
 app.use(cors());
