@@ -1,16 +1,16 @@
 const product=[
     {
-        id:"price_1PE6o9SCIAiUNiAOM4edSJ6v",
+        id:1,
         title:"Coffee",
         Price:12.50
     },
     {
-        id:"price_1PE6ygSCIAiUNiAODdYTpnJV",
+        id:2,
         title:"Tea",
         Price:10.50
     },
     {
-        id:"price_1PE6z5SCIAiUNiAObdg4Qx2Z",
+        id:3,
         title:"Wine",
         Price:50.50
     }
